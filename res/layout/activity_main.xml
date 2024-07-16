@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/news_ch_all"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_above="@+id/news_ch"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/index_bn_all"
+        android:onClick="getInAll" />
+
+    <Button
+        android:id="@+id/news_ch"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/index_bn_category"
+        android:onClick="getIn" />
+
+</RelativeLayout>
